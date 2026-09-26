@@ -19,16 +19,21 @@ function Form() {
         (content==="notDone")?
         <div className="App">
             <div className="nav">
-                <nav><img src="/image/Frame 2 1.png" width="72px" height="72px" alt="Logo" /></nav>
+                <nav><img
+  src={`${import.meta.env.BASE_URL}image/Frame 2 1.png`}
+  width="72px"
+  height="72px"
+  alt="Logo"
+/></nav>
             </div>
             <h1>CONTACT US</h1>
             <div className="main-pragraph"><p>LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU! WHETHER YOU HAVE A QUESTION, COMMENT, OR JUST WANT TO CHAT , YOU CAN REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR BY PHONE, EMAIL, OR SOCIAL MEDIA. </p></div>
             <div className="section">
                 <div className="info-collection">
                     <div className="help">
-                        <button className="btn1"><div><img src="/image/ic_outline-message.png" alt="Message" /></div><div><p>VIA SUPPORT CHAT</p></div></button>
-                        <button className="btn2"><div><img src="/image/ic_baseline-phone.png" alt="Phone" /></div><div><p>VIA CALL</p></div></button>
-                        <button className="btn3"><div><img src="/image/ic_outline-message (1).png" alt="Email" /></div><div><p>VIA EMAIL</p></div></button>
+                        <button className="btn1"><div><img src={`${import.meta.env.BASE_URL}image/ic_outline-message.png`} alt="Message" /></div><div><p>VIA SUPPORT CHAT</p></div></button>
+                        <button className="btn2"><div><img src={`${import.meta.env.BASE_URL}image/ic_baseline-phone.png`} alt="Phone" /></div><div><p>VIA CALL</p></div></button>
+                        <button className="btn3"><div><img src={`${import.meta.env.BASE_URL}image/ic_outline-message (1).png`} alt="Email" /></div><div><p>VIA EMAIL</p></div></button>
                     </div>
                     <div className="form">
                         <fieldset>
@@ -47,7 +52,7 @@ function Form() {
                     </div>
                 </div>
                 <div className="attractive-img">
-                    <img src="/image/Service 24_7-pana 1.svg" alt="Attractive" />
+                    <img src={`${import.meta.env.BASE_URL}image/Service 24_7-pana 1.svg`} alt="Attractive" />
                 </div>
      
             </div>
