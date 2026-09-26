@@ -5,12 +5,12 @@ function Form() {
     const [email, setEmail] = useState("");
     const [text, setText] = useState("");
     function Click(props) {
-        // if (props === "Done") {
-        //     if (name === "" || email === "" || text === "") {
-        //         alert("please fill your details");
-        //         return;
-        //     }
-        // }
+        if (props === "Done") {
+            if (name === "" || email === "" || text === "") {
+                alert("please fill your details");
+                return;
+            }
+        }
         setContent(props);
     }
    
